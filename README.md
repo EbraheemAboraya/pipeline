@@ -4,8 +4,8 @@ pip install -r requirements.txt
 # Install Serverless
 npm install -g serverless
 
-# Configure AWS
-aws configure
+# Install node modules
+npm i
 
 # Run FastAPI locally
 uvicorn main:app --reload
